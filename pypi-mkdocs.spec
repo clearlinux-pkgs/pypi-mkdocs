@@ -4,7 +4,7 @@
 #
 Name     : pypi-mkdocs
 Version  : 1.3.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/65/64/126c28a69067d0f10ce3ec543595d3a1370ebc3015ff464aea5d8491d9d6/mkdocs-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/65/64/126c28a69067d0f10ce3ec543595d3a1370ebc3015ff464aea5d8491d9d6/mkdocs-1.3.0.tar.gz
 Summary  : Project documentation with Markdown.
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1648353762
+export SOURCE_DATE_EPOCH=1649786941
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
