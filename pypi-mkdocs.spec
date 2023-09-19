@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-mkdocs
-Version  : 1.5.2
-Release  : 23
-URL      : https://files.pythonhosted.org/packages/35/6a/63612e19d9c903a608caf91fd2c1f07ccbb9610de4ddb6f187aec1cce197/mkdocs-1.5.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/35/6a/63612e19d9c903a608caf91fd2c1f07ccbb9610de4ddb6f187aec1cce197/mkdocs-1.5.2.tar.gz
+Version  : 1.5.3
+Release  : 24
+URL      : https://files.pythonhosted.org/packages/ed/bb/24a22f8154cf79b07b45da070633613837d6e59c7d870076f693b7b1c556/mkdocs-1.5.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ed/bb/24a22f8154cf79b07b45da070633613837d6e59c7d870076f693b7b1c556/mkdocs-1.5.3.tar.gz
 Summary  : Project documentation with Markdown.
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -78,10 +78,10 @@ python3 components for the pypi-mkdocs package.
 
 
 %prep
-%setup -q -n mkdocs-1.5.2
-cd %{_builddir}/mkdocs-1.5.2
+%setup -q -n mkdocs-1.5.3
+cd %{_builddir}/mkdocs-1.5.3
 pushd ..
-cp -a mkdocs-1.5.2 buildavx2
+cp -a mkdocs-1.5.3 buildavx2
 popd
 
 %build
@@ -89,7 +89,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1691077758
+export SOURCE_DATE_EPOCH=1695141231
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
