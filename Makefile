@@ -1,5 +1,5 @@
 PKG_NAME := pypi-mkdocs
-URL = https://files.pythonhosted.org/packages/ed/bb/24a22f8154cf79b07b45da070633613837d6e59c7d870076f693b7b1c556/mkdocs-1.5.3.tar.gz
+URL = https://files.pythonhosted.org/packages/cc/6b/26b33cc8ad54e8bc0345cddc061c2c5c23e364de0ecd97969df23f95a673/mkdocs-1.6.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
