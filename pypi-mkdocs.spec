@@ -7,7 +7,7 @@
 #
 Name     : pypi-mkdocs
 Version  : 1.6.1
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/bc/c6/bbd4f061bd16b378247f12953ffcb04786a618ce5e904b8c5a01a0309061/mkdocs-1.6.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bc/c6/bbd4f061bd16b378247f12953ffcb04786a618ce5e904b8c5a01a0309061/mkdocs-1.6.1.tar.gz
 Summary  : Project documentation with Markdown.
